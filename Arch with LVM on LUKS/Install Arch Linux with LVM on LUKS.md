@@ -75,14 +75,14 @@ Setup LUKS
 
 ```
 # cryptsetup luksFormat --type luks1 /dev/sda2
-# cryptsetup open /dev/sda2 lvm
+# cryptsetup open /dev/sda2 cryptlvm
 ```
 
 Create LVM Partitions
 
 ```
-# pvcreate /dev/mapper/lvm
-# vgcreate vg0 /dev/mapper/lvm
+# pvcreate /dev/mapper/cryptlvm
+# vgcreate vg0 /dev/mapper/cryptlvm
 # lvcreate -L 4GB vg0 -n swap
 # lvcreate -L 32GB vg0 -n root
 # lvcreate -l 100%FREE vg0 -n home
@@ -248,7 +248,7 @@ Configure GRUB
 
 # nano /etc/default/grub
 Edit the line "GRUB_CMDLINE_LINUX" to this:
-GRUB_CMDLINE_LINUX="cryptdevice=UUID={uuid_you_saved}:lvm root=/dev/vg0/root"
+GRUB_CMDLINE_LINUX="cryptdevice=UUID={uuid_you_saved}:cryptlvm root=/dev/vg0/root"
 
 Then uncomment:
 "GRUB_ENABLE_CRYPTODISK=y"
@@ -273,19 +273,19 @@ Make GRUB Config
 Avoid having to enter your passphrase twice (Optional)
 
 ```
-# dd bs=512 count=4 if=/dev/random of=/root/lvm.keyfile iflag=fullblock
-# chmod 000 /root/lvm.keyfile
-# cryptsetup -v luksAddKey /dev/sda2 /root/lvm.keyfile
+# dd bs=512 count=4 if=/dev/random of=/root/cryptlvm.keyfile iflag=fullblock
+# chmod 000 /root/cryptlvm.keyfile
+# cryptsetup -v luksAddKey /dev/sda2 /root/cryptlvm.keyfile
 
 # nano /etc/mkinitcpio.conf
 Edit the line "FILES=()" to:
-FILES=(/root/lvm.keyfile)
+FILES=(/root/cryptlvm.keyfile)
 
 # chmod 600 /boot/initramfs-linux*
 
 # nano /etc/default/grub
 Add this to the end of the "GRUB_CMDLINE_LINUX" line:
-GRUB_CMDLINE_LINUX="... cryptkey=rootfs:/root/lvm.keyfile"
+GRUB_CMDLINE_LINUX="... cryptkey=rootfs:/root/cryptlvm.keyfile"
 
 # mkinitcpio -P
 # grub-mkconfig -o /boot/grub/grub.cfg
