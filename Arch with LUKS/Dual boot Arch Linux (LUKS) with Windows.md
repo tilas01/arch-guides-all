@@ -204,7 +204,7 @@ Enable NetworkManager
 Install some nice to have packages (Optional)
 
 ```
-# pacman -S vim neovim htop neofetch net-tools
+# pacman -Sy vim neovim htop neofetch net-tools
 ```
 
 Setup sudo

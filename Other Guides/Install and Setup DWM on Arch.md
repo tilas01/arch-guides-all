@@ -27,7 +27,7 @@ permit persist :wheel
 #### Install Dependencies and Git
 
 ```
-# sudo pacman -Sy xorg-server xorg-xrandr xorg-xinit libx11 libxft libxinerama ttf-jetbrains-mono git btop
+# sudo pacman -Sy xorg-server xorg-xrandr xorg-xinit xorg-xset libx11 libxft libxinerama ttf-jetbrains-mono git btop
 ```
 
 #### Create a Directory for DWM

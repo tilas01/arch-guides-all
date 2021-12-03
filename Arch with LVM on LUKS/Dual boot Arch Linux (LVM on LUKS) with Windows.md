@@ -81,7 +81,7 @@ Create a "Linux filesystem" Partition using all the free space created by the vo
 Partiton Table:
 --gpt--
 (windows partitions)
-/dev/sda2 Linux filesystem (type 30) (rest of storage)
+/dev/sda2 Linux filesystem (rest of storage)
 
 # fdisk -l (confirm partitioning succeeded)
 
@@ -92,14 +92,14 @@ Setup LUKS
 
 ```
 # cryptsetup luksFormat --type luks1 /dev/sda2
-# cryptsetup open /dev/sda2 lvm
+# cryptsetup open /dev/sda2 cryptlvm
 ```
 
 Create LVM Partitions
 
 ```
-# pvcreate /dev/mapper/lvm
-# vgcreate vg0 /dev/mapper/lvm
+# pvcreate /dev/mapper/cryptlvm
+# vgcreate vg0 /dev/mapper/cryptlvm
 # lvcreate -L 4GB vg0 -n swap
 # lvcreate -L 32GB vg0 -n root
 # lvcreate -l 100%FREE vg0 -n home
@@ -210,7 +210,7 @@ Enable NetworkManager
 Install some nice to have packages (Optional)
 
 ```
-# pacman -S vim neovim htop neofetch net-tools
+# pacman -Sy vim neovim htop neofetch net-tools
 ```
 
 Setup sudo
@@ -288,19 +288,19 @@ Make GRUB Config
 Avoid having to enter your passphrase twice (Optional)
 
 ```
-# dd bs=512 count=4 if=/dev/random of=/root/lvm.keyfile iflag=fullblock
-# chmod 000 /root/lvm.keyfile
-# cryptsetup -v luksAddKey /dev/sda2 /root/lvm.keyfile
+# dd bs=512 count=4 if=/dev/random of=/root/cryptlvm.keyfile iflag=fullblock
+# chmod 000 /root/cryptlvm.keyfile
+# cryptsetup -v luksAddKey /dev/sda2 /root/cryptlvm.keyfile
 
 # nano /etc/mkinitcpio.conf
 Edit the line "FILES=()" to:
-FILES=(/root/lvm.keyfile)
+FILES=(/root/cryptlvm.keyfile)
 
 # chmod 600 /boot/initramfs-linux*
 
 # nano /etc/default/grub
 Add this to the end of the "GRUB_CMDLINE_LINUX" line:
-GRUB_CMDLINE_LINUX="... cryptkey=rootfs:/root/lvm.keyfile"
+GRUB_CMDLINE_LINUX="... cryptkey=rootfs:/root/cryptlvm.keyfile"
 
 # mkinitcpio -P
 # grub-mkconfig -o /boot/grub/grub.cfg

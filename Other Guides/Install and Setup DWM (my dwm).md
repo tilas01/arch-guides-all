@@ -37,7 +37,7 @@ permit persist :wheel
 # cd ~/git
 ```
 
-#### Clone DWM and Wallpapers (Desktop)
+#### Clone DWM, Wallpapers and Dotfiles (Desktop)
 
 ```
 # git clone https://github.com/tilas01/dwm.git
@@ -49,7 +49,7 @@ permit persist :wheel
 # git clone https://github.com/tilas01/dotfiles.git (intended for laptop)
 ```
 
-#### Clone DWM and Wallpapers (Laptop)
+#### Clone DWM, Wallpapers and Dotfiles (Laptop)
 
 ```
 # git clone -b laptop https://github.com/tilas01/dwm.git
