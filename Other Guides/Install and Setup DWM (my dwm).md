@@ -100,11 +100,11 @@ xrandr --output Virtual-1 --mode 1920x1080
 Note: Replace "Virtual-1" with your display name if it isn't that
 ```
 
-#### Add startx to your .bashrc
+#### Add startx to your .bash_profile
 
 ```
-# sudo nano ~/.bashrc
-Add to the start of it:
+# sudo nano ~/.bash_profile
+Add to the end of it:
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
