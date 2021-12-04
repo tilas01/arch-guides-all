@@ -309,7 +309,7 @@ Replace sudo with doas (Optional)
 Then add:
 permit persist :wheel
 
-# sudo pacman -R sudo
+# doas pacman -R sudo
 # doas ln -s /bin/doas /bin/sudo (symlink sudo to doas)
 ```
 If you face any issues try consulting [this page](https://wiki.archlinux.org/title/Dual_boot_with_Windows)

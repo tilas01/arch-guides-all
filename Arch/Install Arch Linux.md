@@ -290,7 +290,7 @@ Replace sudo with doas (Optional)
 Then add:
 permit persist :wheel
 
-# sudo pacman -R sudo
+# doas pacman -R sudo
 # doas ln -s /bin/doas /bin/sudo (symlink sudo to doas)
 ```
 
