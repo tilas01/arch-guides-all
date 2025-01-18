@@ -20,7 +20,7 @@ I am not responsible for any damage to software, hardware or data from following
 
 
 
-I wrote this code based on the Arch Wiki in 2022, im sure it may have changed some since then and I am aware of the arch-install command if I had heard about it may of not written all this but I dedicated a lot of time and testing to this. Although most of all the testing was also done in 2022-2023 so there is a chance you run into errors but i've used this guide to install arch on my own laptop and had no issues.
+I wrote this code based on the Arch Wiki in 2021, im sure it may have changed some since then and I am aware of the arch-install command if I had heard about it may of not written all this but I dedicated a lot of time and testing to this. Although most of all the testing was also done in 2021-2023 so there is a chance you run into errors but i've used this guide to install arch on my own laptop and had no issues. Im definetly going to be using these guides myself soon so they will be updated and tested to be for sure working in 2025 soon.
 
 
 
