@@ -59,7 +59,7 @@ wifi.backend=iwd
 
 Note before we start you can also do this with dnsmasq and unbound also if you dont wish to use the systemd dns resolver. Check the arch wiki for intructions on how to setup these but otherwise this is absolutely fine if you're happy using systemd (which I am) not that I think systemd couldn't be better. But its reliable and the most used init system in the world, take from that what you will and review the differences you dont need to copy every decision i make but if you want to thats fine just letting you have the ability to use any dns resolver you want, its the beauty of arch. And admitly *most* linux distros also if you wish to its the beauty of unix and open source. And of course always feel free to follow your own steps and go off the guide with whatever you prefer if you do know what you are doing!
 
-#### Install systemd-resolved
+#### Install systemd-resolved (it should already be installed)
 
 ```
 # pacman -Sy systemd-resolved
@@ -69,7 +69,7 @@ Note before we start you can also do this with dnsmasq and unbound also if you d
 
 Create the following configuration file
 
-`/etc/NetworkManager/conf.d/dns.con`
+`/etc/NetworkManager/conf.d/dns.conf`
 
 ```
 [main]
