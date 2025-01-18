@@ -6,7 +6,9 @@
 
 [Spotify-TUI](https://github.com/Rigellute/spotify-tui)
 
+#### If you are installing on a real computer remember to install their microcode at install through intel and amd ucode officical packages
 
+If you have a graphics card you must find a compatible driver for it and install to have it working.
 
 #### Install a backup kernel
 
