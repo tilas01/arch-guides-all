@@ -10,6 +10,7 @@ Contents
  * [Requirements](#requirements)
  * [Use](#use)
  * [Features](#features)
+ * [To-Do](#todo)
  * [License](#license)
 
 ### Disclaimer
@@ -72,6 +73,11 @@ If you want to encrypt the windows install with BitLocker or Veracrypt (recommen
 - Easy encrypted installs with secure boot and dual boot and lvm
 - Setup wifi and dns, dhcp (Local DNS caching, DoT, DoH)
 - Feel free to change any of these steps to your own setup along the way its the whole point of arch i just hope i could help :) !
+
+#### To-Do:
+- Add my own custom auto install script for me thst setups up and rices my machine
+- Add install script for you guys to auto cudtomise your install with this guide as a base
+
 
 ### License
 
