@@ -1,0 +1,12 @@
+#This log is written by a human, me.
+#Humans do make mistakes.
+
+The below logs each time the guides are tested by vms and physical hardware and achieve successful results.
+Each time a day is marked below will tell you what was verified and through a vm or physical hardwae with this some comments.
+My first log will be an example as everything has been tested ojn a vm and my home physical laptop to be 100% working (remember to disable secure boot!)
+
+Sun 19th Jan 2025 11:52 AM
+Verified all guides working on a virtual machine and Physical hardware (x64_86) (CPU Brand: Intel) (Device: Old Seond Hand Acer Laptop, CPU: Intel Pentium N350) 
+tip: always remeber to install the ucode for your cpu, discover which you need depending on if you have an amd or intel chip.
+i will be setting up dwm soon along with all my suckless tool, figure out how to update em all to the latest versions of the software and apply my rice to have my custom desktop
+with my custom shortcuts keybinds etc - very minimal - very little power is consumed by it
