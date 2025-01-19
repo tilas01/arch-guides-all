@@ -128,7 +128,7 @@ DNSStubListner=yes
 
 #### Enable and Start systemd-resolver
 
-*Ensure you enable and Start systemd=resolved.service and NOT systemd-resolved.socket - this is why we are specying .service in the command below.. If left unspecified systemctl will assume you meant .service and execute as that and all should be fine. But because systemd-resolved has another one called systemd-resolved.socket im just specifying here to be safe. Realistically there should be no issue unless a command was run specifying to alter the systemd-resolved.socket command.*
+*Ensure you enable and Start systemd=resolved.service and NOT systemd-resolved.socket - this is why we are specying .service in the command below.. If left unspecified systemctl will assume you meant .service and execute as that and all should be fine. But because systemd-resolved has another one called systemd-resolved.socket im just specifying here to be safe. Realistically there should be no issue unless a command was run specifying to alter the status of systemd-resolved.socket.*
 
 ```
 # sudo systemctl enable systemd-resolved.service
