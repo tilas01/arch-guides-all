@@ -1,5 +1,7 @@
 #### Created by tilas01 on GitHub
-*do not remove my credit if sharing please.*
+Do not remove my credit if sharing please.
+
+I hope this or any of my other guides can help you!
 
 # Dual boot Arch Linux with Windows 10/11 (UEFI)
 
