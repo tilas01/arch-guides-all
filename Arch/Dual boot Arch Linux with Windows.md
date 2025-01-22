@@ -1,5 +1,5 @@
 #### Created by tilas01[www.github.com/tilas01] on GitHub
-Do not remove my credit if sharing, modifying or publishing anything I wrote please.
+Do not remove my credit if sharing, modifying or publishing anything with this guide please.
 
 With the above aside lets get started!
 I hope this or any of my other guides can help you!
