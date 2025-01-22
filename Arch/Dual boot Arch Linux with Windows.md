@@ -4,7 +4,7 @@ Do not remove my credit if sharing, modifying or publishing anything with this g
 With the above aside lets get started!
 I hope this or any of my other guides can help you!
 
-This guide and all in this repo is based on the official [
+This guide and all information included in this repo is based on the official [
 Arch Wiki](https://wiki.archlinux.org/title/Main_page)
 
 # Dual boot Arch Linux with Windows 10/11 (UEFI)
