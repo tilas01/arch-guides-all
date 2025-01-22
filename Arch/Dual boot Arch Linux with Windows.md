@@ -1,4 +1,5 @@
-#### Created by tilas01 on GitHub *dont remove my credit if sharing please!*
+#### Created by tilas01 on GitHub
+*do not remove my credit if sharing please.*
 
 # Dual boot Arch Linux with Windows 10/11 (UEFI)
 
