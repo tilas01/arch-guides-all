@@ -1,6 +1,7 @@
-#### Created by tilas01 on GitHub
-Do not remove my credit if sharing please.
+#### Created by tilas01[www.github.com/tilas01] on GitHub
+Do not remove my credit if sharing, modifying or publishing anything I wrote please.
 
+With the above aside lets get started!
 I hope this or any of my other guides can help you!
 
 # Dual boot Arch Linux with Windows 10/11 (UEFI)
