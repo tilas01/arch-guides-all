@@ -10,3 +10,7 @@ Verified all guides working on a virtual machine and Physical hardware (x64_86) 
 tip: always remeber to install the ucode for your cpu, discover which you need depending on if you have an amd or intel chip.
 i will be setting up dwm soon along with all my suckless tool, figure out how to update em all to the latest versions of the software and apply my rice to have my custom desktop
 with my custom shortcuts keybinds etc - very minimal - very little power is consumed by it
+
+Sat 25th Jan 2025 7:37PM
+
+Verified working on my laptop as in the previous test also verified dwm and the whole setup works just copy .bash_profile contents for startx into .zshrc if using zsh
