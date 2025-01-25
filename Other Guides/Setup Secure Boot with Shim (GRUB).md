@@ -1,3 +1,12 @@
+#### Created by [tilas01](www.github.com/tilas01) on GitHub
+Do not remove my credit if sharing, modifying or publishing anything with this guide please.
+
+With the above aside lets get started!
+I hope this or any of my other guides can help you!
+
+This guide and all information included in this repo is based on the official [
+Arch Wiki](https://wiki.archlinux.org/title/Main_page)
+
 # Setup Secure Boot with Shim (GRUB)
 
 #### Assumptions
