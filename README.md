@@ -2,13 +2,13 @@
 
 An easy to follow list of arch guides that helps you setup your system however you want but offers you the option of my window mananger that i use and personally recommend suckless dwm and the whole suckless tools like st and slock etc.
 
-## Enable Networking and Wi-Fi | Please Read - Important!
+## Enable Networking and Wi-Fi (Don't forget!)
 
 You can safely ignore this if you do not wish to use networking or have internet connectivity and / or Wi-Fi otherwise please follow the below insturctions:
 
 To enable Networking and Wi-Fi go to [This Guide](https://github.com/tilas01/arch-guides-all/blob/main/Other%20Guides/Setup%20Wi-Fi%20with%20iwd%20and%20NetworkManager%20and%20systemd-resolved%20on%20Arch%20after%20Install.md) inside this repository. If you forget to follow some of these steps you WILL BE left WITHOUT internet connectivity!
 
-Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this headings information): Mount your system again AFTER install and do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to do this tidious process if you can! At least this is here if you somehow forget.
+Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this headings information): Mount your system again AFTER install, also keep in mind if you setuo your install with LUKS and/or LVM you will need to open the cryptsetup and point to the correct logical volume etc to be able to arch-chroot. and do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to do this tidious process if you can! At least this is here if you somehow forget.
 
 Contents
 ========
