@@ -55,6 +55,11 @@ permit persist :wheel
 # git clone git://git.suckless.org/slstatus
 # git clone git://git.suckless.org/slock
 ```
+#### Change slock config.h values to your username
+```
+# sudo nano config.h
+Replace all instances of "nobody" and "nogroup" with your username to make slock work before building it.
+```
 
 #### Make DWM
 
