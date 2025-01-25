@@ -69,6 +69,11 @@ permit persist :wheel
 # git clone https://github.com/tilas01/wallpapers.git
 # git clone https://github.com/tilas01/dotfiles.git
 ```
+#### Change slock config.h values to your username
+```
+# sudo nano config.h
+Replace all instances of "tilas01" with your username to make slock work before building it.
+```
 
 #### Make DWM
 
