@@ -118,6 +118,15 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
 ```
+#### Or if you are using ohmyzsh:
+#### Add startx to .zshrc
+```
+sudo nano ~./zshrc
+Add to the end of it:
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+  exec startx
+fi
+```
 
 #### Reboot
 
