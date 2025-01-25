@@ -118,7 +118,7 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
 ```
-#### Or if you are using ohmyzsh:
+#### Or if you are using OhMyZsh:
 #### Add startx to .zshrc
 ```
 sudo nano ~./zshrc
