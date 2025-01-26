@@ -35,6 +35,8 @@ Contents
 
 ---
 
+I do not claim to own the rights for the Arch Linux Logo used for the "DWMch Linux" photo I edited from the official Arch Linux Logo at the beginning of this README file and am simply modifying it for comedic purposes and to make my project look nicer under fair use. If the rights holder has any issue with this please contact me at any time and it will be removed from this repository. I do not have any direct connection or relation with the Arch Linux project.
+
 I am not responsible for any damage to software, hardware or data from following these instructions although I have tested and successfully installed arch with no issues in a vm following. Before following these guides, first and if you are more of the precautious type or just likes to practice go ahead and follow these guides on vms and let me know if anything is wrong please! It is greatly appreciated and helps everyone!
 
 
