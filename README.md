@@ -13,9 +13,9 @@ Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this hea
 ## My Arch Linux + Suckless Tools (DWM) Rice.
 An example of how Arch can look just about any way you want it to!
 Here is my Arch custom configuration.
-![Here](img/desktop1.png "DWM Desktop")
-![Here](img/desktop2.png "DWM with Neovim")
-![Here](img/desktop3.pmg "DWM with Firefix")
+![DWM Desktop](img/dwm1.png "DWM Desktop")
+![DWM with Neovim](img/dwm2.png "DWM with Neovim")
+![DWM with Firefox](img/dwm3.pmg "DWM with Firefox")
 
 Contents
 ========
