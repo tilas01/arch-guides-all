@@ -1,5 +1,7 @@
 # Arch Guides
 
+# ![DWMch Linux](img/dwmchlinux.png "Arch Linux w/ DWM")
+
 An easy to follow list of arch guides that helps you setup your system however you want but offers you the option of my window mananger that i use and personally recommend suckless dwm and the whole suckless tools like st and slock etc.
 
 ## Enable Networking and Wi-Fi (Don't forget!)
