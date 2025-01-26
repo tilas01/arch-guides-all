@@ -15,7 +15,7 @@ An example of how Arch can look just about any way you want it to!
 Here is my Arch custom configuration.
 ![DWM Desktop](img/dwm1.png "DWM Desktop")
 ![DWM with Neovim](img/dwm2.png "DWM with Neovim")
-![DWM with Firefox](img/dwm3.pmg "DWM with Firefox")
+![DWM with Firefox](img/dwm3.png "DWM with Firefox")
 
 Contents
 ========
