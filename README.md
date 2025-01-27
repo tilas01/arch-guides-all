@@ -12,9 +12,9 @@ To enable Networking and Wi-Fi go to [This Guide](https://github.com/tilas01/arc
 
 ## Fix for Networking and Wi-F if you ignored the above when installing.
 #### Note if reading this before installing: It is STRONGLY unrecommended to ignore the previous headings information if you wish to have networking snd Wi-Fi connectivity on your system after install.):
-'''
+```
 Mount your system again AFTER install, also keep in mind if you setup your install with LUKS and/or LVM you will need to open the cryptsetup and point to the correct logical volume etc to be able to mount the correct partitions / volumes to arch-chroot in as you did when installing. You can do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to go through this tidious process if you can by remembering to install this software at install time! I've only put this is here if you somehow forget.
-'''
+```
 ## My Arch Linux + Suckless Tools (DWM) Rice.
 An example of how Arch can look just about any way you want it to!
 Here is my Arch custom configuration:
