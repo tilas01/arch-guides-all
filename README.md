@@ -10,7 +10,7 @@ You can safely ignore this if you do not wish to use networking or have internet
 
 To enable Networking and Wi-Fi go to [This Guide](https://github.com/tilas01/arch-guides-all/blob/main/Other%20Guides/Setup%20Wi-Fi%20with%20iwd%20and%20NetworkManager%20and%20systemd-resolved%20on%20Arch%20after%20Install.md) inside this repository. If you forget to follow some of these steps you WILL BE left WITHOUT internet connectivity!
 
-Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this headings information): Mount your system again AFTER install, also keep in mind if you setuo your install with LUKS and/or LVM you will need to open the cryptsetup and point to the correct logical volume etc to be able to arch-chroot. and do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to do this tidious process if you can! At least this is here if you somehow forget.
+Fix if you ignored this heading (It is STRONGLY unrecommdnded to ignore this headings information): Mount your system again AFTER install, also keep in mind if you setup your install with LUKS and/or LVM you will need to open the cryptsetup and point to the correct logical volume etc to be able to mount the correct partitions / volumes to arch-chroot in as you did when installing. You can do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to go through this tidious process if you can by remembering to install this software at install time! I've only put this is here if you somehow forget.
 
 ## My Arch Linux + Suckless Tools (DWM) Rice.
 An example of how Arch can look just about any way you want it to!
@@ -35,7 +35,7 @@ Contents
 
 ---
 
-I do not claim to own the rights for the Arch Linux Logo used for the "DWMch Linux" photo I edited from the official Arch Linux Logo at the beginning of this README file and am simply modifying it for comedic purposes and to make my project look nicer under fair use. If the rights holder has any issue with this please contact me at any time and it will be removed from this repository. I do not have any direct connection or relation with the Arch Linux project.
+I do not claim to own the rights for the Arch Linux Logo used for the "DWMch Linux" photo I edited from the official Arch Linux Logo at the beginning of this README file and am simply modifying it for comedic purposes and to make my project look nicer under fair use. If the rights holder has any issue with this please contact me at any time and it will be removed from this repository. I do not have any affiliation with the Official Arch Linux project.
 
 I am not responsible for any damage to software, hardware or data from following these instructions although I have tested and successfully installed arch with no issues in a vm following. Before following these guides, first and if you are more of the precautious type or just likes to practice go ahead and follow these guides on vms and let me know if anything is wrong please! It is greatly appreciated and helps everyone!
 
