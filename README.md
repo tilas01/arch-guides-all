@@ -14,11 +14,9 @@ Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this hea
 
 ## My Arch Linux + Suckless Tools (DWM) Rice.
 An example of how Arch can look just about any way you want it to!
-Here is my Arch custom configuration:
+Here is an example of my own DWM and custom tools that I have configured and compiled with a custom config for my personal needs and preferences. Suckless Tools allow you to customise them by changing the source code and recompiling in order to stay extremely minimal, fast and versatile as you can literally add any feature to it you want if you write it or apply it via the public patches they have for each project! The Arch Linux DWM + other [Suckless Tools](https://suckless.org)  (The developers of DWM, st (my terminal) and all my other desktop setup tools. Their website contains many helpful insites on how to code efficiantlly for example [these HTML websites](https://suckless.org/sucks/web/) quite *bluntly* explaining the key of simplicity in web design). I use the following for my desktop developed by the suckless devs: dwm (window manager), st (suckless terminal), dmenu (top bar menu), slstatus (suckless status monitor), and slock (suckless lock screen). If for some reason you want to copy it my dotfiles, wallpapers and all suckless tools including my configuration changes and applied patches are all public on my github account although keep in mind the versions of these programs may be a bit outdated as they were originally downloaded and configured in 2021, note I also use PyWal to achieve my terminal colour scheme. Anyway here is my persoanl custom desktop setup, fully using [Suckless Tools](https://suckless.org) such as DWM etc. It goes without saying that I strongly recommend [Suckless Tools](https://suckless.org) and support the Suckless Devs projects as should you please do check them out!
 
-![DWM Desktop](img/dwm1.png "DWM Desktop")
-![DWM with Neovim](img/dwm2.png "DWM with Neovim")
-![DWM with Firefox](img/dwm3.png "DWM with Firefox")
+![DWM Setup](img/dwmcustom.png "My DWM Custom Setup")
 
 Contents
 ========
