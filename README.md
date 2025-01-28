@@ -10,8 +10,22 @@ You can safely ignore this if you do not wish to use networking or have internet
 
 To enable Networking and Wi-Fi go to [This Guide](https://github.com/tilas01/arch-guides-all/blob/main/Other%20Guides/Setup%20Wi-Fi%20with%20iwd%20and%20NetworkManager%20and%20systemd-resolved%20on%20Arch%20after%20Install.md) inside this repository. If you forget to follow some of these steps you WILL BE left WITHOUT internet connectivity!
 
-Fix if you ignored this heading (It is STRONGLY Unrecommended to ignore this headings information): Mount your system again AFTER install, also keep in mind if you setuo your install with LUKS and/or LVM you will need to open the cryptsetup and point to the correct logical volume etc to be able to arch-chroot. and do another arch-chroot by booting off an arch iso the same way you did to install Arch Linux as enabling networking requires network and wifi tools to be installed in arch-chroot before the system itself has wifi access so the only way to download this software to the system is through arch-chroot. Avoid having to do this tidious process if you can! At least this is here if you somehow forget.
+## Fix for Networking and Wi-F if you ignored the above when installing.
+#### Note if reading this before installing: It is STRONGLY unrecommended to ignore the previous headings information if you wish to have networking snd Wi-Fi connectivity on your system after install.):
+```
+Mount your system again AFTER install, also keep in mind
+if you setup your install with LUKS and/or LVM you will
+need to open the cryptsetup and point to the correct logical
+volume etc to be able to mount the correct partitions / volumes to arch-chroot
+in as you did when installing. You can do another arch-chroot by booting off an
+arch iso the same way you did to install Arch Linux as enabling networking requires
+network and wifi tools to be installed in arch-chroot before the system itself has wifi
+access so the only way to download this software to the system is through arch-chroot.
+Avoid having to go through this tidious process if you can by remembering to install this
+software at install time! I've only put this is here if you somehow forget.
 
+I wont be writing a guide on how to do this specifically step-by-step as its only a fix IF you forget.
+```
 ## My Arch Linux + Suckless Tools (DWM) Rice.
 An example of how Arch can look just about any way you want it to!
 Here is an example of my own DWM and custom tools that I have configured and compiled with a custom config for my personal needs and preferences. Suckless Tools allow you to customise them by changing the source code and recompiling in order to stay extremely minimal, fast and versatile as you can literally add any feature to it you want if you write it or apply it via the public patches they have for each project! The Arch Linux DWM + other [Suckless Tools](https://suckless.org)  (The developers of DWM, st (my terminal) and all my other desktop setup tools. Their website contains many helpful insites on how to code efficiantlly for example [these HTML websites](https://suckless.org/sucks/web/) quite *bluntly* explaining the key of simplicity in web design). I use the following for my desktop developed by the suckless devs: dwm (window manager), st (suckless terminal), dmenu (top bar menu), slstatus (suckless status monitor), and slock (suckless lock screen). If for some reason you want to copy it my dotfiles, wallpapers and all suckless tools including my configuration changes and applied patches are all public on my github account although keep in mind the versions of these programs may be a bit outdated as they were originally downloaded and configured in 2021, note I also use PyWal to achieve my terminal colour scheme. Anyway here is my persoanl custom desktop setup, fully using [Suckless Tools](https://suckless.org) such as DWM etc. It goes without saying that I strongly recommend [Suckless Tools](https://suckless.org) and support the Suckless Devs projects as should you please do check them out!
@@ -32,6 +46,8 @@ Contents
 ### Disclaimer
 
 ---
+
+I do not claim to own the rights for the Arch Linux Logo used for the "DWMch Linux" photo I edited from the official Arch Linux Logo at the beginning of this README file and am simply modifying it for comedic purposes and to make my project look nicer under fair use. If the rights holder has any issue with this please contact me at any time and it will be removed from this repository. I do not have any affiliation with the Official Arch Linux project.
 
 I am not responsible for any damage to software, hardware or data from following these instructions although I have tested and successfully installed arch with no issues in a vm following. Before following these guides, first and if you are more of the precautious type or just likes to practice go ahead and follow these guides on vms and let me know if anything is wrong please! It is greatly appreciated and helps everyone!
 
