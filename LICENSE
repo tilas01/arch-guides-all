@@ -2,7 +2,10 @@ MIT License - (Modified)
 
 Copyright (c) 2025 tilas01 on GitHub (https://github.com/tilas01)
 
-By using the guides in the contents of this repo you agree to the disclaimer placed at the beginning advising you that all guides I've written in this repo shall not be modified or redistributed without giving credit to the copyright holder (tilas01 on Github). And you agree agreet to not remove the credit disclaimers at the beginning of each guide if you are to use them.
+(a) Defining "Software" in this License for a project without any "Software" in the repository; only Guides for Installing the Software/Linux OS that I do not own, have any rights to or affiliation with, Arch Linux or anyone at the Arch Linux Team:
+			(i) The terms "Software" and "Documentation", "Guide", "Tutorial" etc in this license all simply refer to this "arch-guides-all" repository of all my arch guides written by me based off the official Arch Wiki. (https://www.github.com/tilas01/arch-guides-all). To be clear evey single file in this repository is under this license and shall not be shared without following this license and giving credit to me and this repo when it is seen by others (redistributed) in any way possible, a simple credit notice is still required.
+
+By using the guides in the contents of this repo you agree to the disclaimer placed at the beginning advising you that all guides I've written in this repo shall not be modified or redistributed without giving credit to the copyright holder (tilas01 on Github). And you agree to not remove the credit disclaimers at the beginning of each guide if you are to use them.
 
 Also, if you are to make a social media post including the project you must include at least one direct link to this repository (https://www.github.com/tilas01/arch-guides-all) and you must provide credit to me in the video and description.
 
